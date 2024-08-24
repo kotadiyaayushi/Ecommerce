@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.thing1{
+    min-height: 700px;
+    margin-left: 9%;
+    margin-right: 9%;
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    display: flex;
+}
+
+.thing1left{
+    width: 40%;
+    min-height: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+
+}
+.thing1right{
+    
+    /* border: 2px solid rgb(32, 171, 34); */
+    width: 60%;
+    min-height: 100%;
+    padding-left: 40px;
+
+}
+
+.thing1right p {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: black;
+}
+.thing1right h6 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 15px;
+    color: rgb(116, 114, 114);
+}
+.thing1right h6 span{
+    color: rgb(32, 93, 106);
+
+}
+.thing1right h3{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(32, 93, 106);
+
+}
+.thing1right h5{
+    margin-top: 25px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(102, 103, 104);
+    letter-spacing: 1px;
+
+}
+.thing1{
+    height: 70%;
+}
+
+
+.timag1 img{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 100%;
+}
+.timag2{
+    height: 25%;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.timag2 img{
+    height: 150px;
+    width: 150px;
+}
+    
+
+.thingInfo{
+    margin-top: 100px;
+    display: flex;
+    
+    
+    height: 700px;
+    /* border: 2px solid red; */
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.thbtnone{
+    margin-right: 80px;
+    font-size: 21px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(32, 93, 106);
+}
+.thbtntwo{
+    margin-right: 100px;
+    letter-spacing: 1px;
+    font-size: 21px;
+    font-weight: 600;
+    color: rgb(33, 33, 33);
+}
+
+.t1one{
+    
+    /* border: 2px solid green; */
+    min-height: 600px;
+    width: 100%;
+    margin-top: 30px;
+}
+.t2two{
+    display: none;
+    /* border: 2px solid green; */
+    margin-top: 50px;
+    width: 100%;
+    min-height: 1000px;
+    
+}
+
+.t1{
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+
+
+.thcomn{
+    display: flex;
+}
+
+.t1onefull{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 40px;
+    display: flex;
+
+}
+
+.t1oneleft{
+    border: 1px solid rgb(213, 213, 213);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    color: rgb(99, 101, 102);
+    font-size: 14px;
+}
+.t1oneright{
+    border: 1px solid rgb(213, 213, 213);
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+    color: rgb(99, 101, 102);
+    font-size: 14px;
+}
+
+.t2twofull{
+    border-bottom: 1px solid rgb(140, 140, 140);
+    width: 100%;
+    height: 180px;
+    display: flex;
+}
+
+
+
+.t2twoleft{
+    /* border: 1px solid rgb(213, 213, 213); */
+    width: 15%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.t2tworight{
+    padding: 30px;
+    /* border: 1px solid rgb(213, 213, 213); */
+    width: 85%;
+    height: 100%;
+}
+.t2tworightstar span{
+    font-size: 14px;
+    color: rgb(240, 176, 81);
+}
+.t2tworight p{
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(103, 104, 105);
+}
+.t2twoleft img{
+    height: 75%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.t2twoleft p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    color: rgb(103, 104, 105);
+}
+
+
+.addReview{
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    height: 400px;
+    margin-bottom: 500px;
+
+}
+
+.addReview p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 550;
+    color: rgb(54, 53, 53);
+}
+
+.addReview textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Roboto", sans-serif;
+    }
+    
+    .thing1{
+        min-height: 700px;
+        margin-left: 5%;
+        margin-right: 5%;
+        /* border: 2px solid red; */
+        margin-top: -60px;
+        display: flex;
+    }
+    
+    .thing1left{
+        width: 40%;
+        min-height: 100%;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .thing1right{
+        
+        /* border: 2px solid rgb(32, 171, 34); */
+        width: 60%;
+        min-height: 100%;
+        padding-left: 40px;
+    
+    }
+    
+    .thing1right p {
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: black;
+    }
+    .thing1right h6 {
+        font-size: 8px;
+        font-weight: 500;
+        margin-top: 0px;
+        color: rgb(116, 114, 114);
+    }
+    .thing1right h6 span{
+        color: rgb(32, 93, 106);
+    
+    }
+    .thing1right h3{
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(32, 93, 106);
+    
+    }
+    .thing1right h5{
+        margin-top: 10px;
+        font-size: 6px;
+        font-weight: 500;
+        color: rgb(102, 103, 104);
+        letter-spacing: 0px;
+    
+    }
+    .thing1{
+        height: 70%;
+    }
+    
+    
+    .timag1 img{
+        /* border: 2px solid red; */
+        height: 140px;
+        width: 100%;
+    }
+    .timag2{
+        height: 10%;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        justify-content: space-around;
+    }
+    
+    .timag2 img{
+        height: 60px;
+        width: 55px;
+    }
+        
+    
+    .thingInfo{
+        margin-top: -400px;
+        display: flex;
+        
+        
+        height: 700px;
+        /* border: 2px solid red; */
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .thbtnone{
+        margin-right: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        letter-spacing: 0px;
+        color: rgb(32, 93, 106);
+    }
+    .thbtntwo{
+        margin-right: 10px;
+        letter-spacing: 0px;
+        font-size: 13px;
+        font-weight: 600;
+        color: rgb(33, 33, 33);
+    }
+    
+    .t1one{
+        
+        /* border: 2px solid green; */
+        min-height: 600px;
+        width: 100%;
+        margin-top: 30px;
+    }
+    .t2two{
+        display: none;
+        /* border: 2px solid green; */
+        margin-top: 50px;
+        width: 100%;
+        min-height: 1000px;
+        
+    }
+    
+    .t1{
+        width: 100%;
+        /* border: 2px solid yellow; */
+    }
+    
+    
+    .thcomn{
+        display: flex;
+    }
+    
+    .t1onefull{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 40px;
+        display: flex;
+        
+    
+    }
+    
+    .t1oneleft{
+        border: 1px solid rgb(213, 213, 213);
+        width: 50%;
+        height: 100%;
+        padding: 5px;
+        color: rgb(99, 101, 102);
+        font-size: 10px;
+    }
+    .t1oneright{
+        border: 1px solid rgb(213, 213, 213);
+        width: 50%;
+        height: 100%;
+        padding: 5px;
+        color: rgb(99, 101, 102);
+        font-size: 10px;
+    }
+    
+    .t2twofull{
+        border-bottom: 1px solid rgb(140, 140, 140);
+        width: 100%;
+        height: 60px;
+        display: flex;
+    }
+    
+    
+    
+    .t2twoleft{
+        /* border: 1px solid rgb(213, 213, 213); */
+        width: 15%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .t2tworight{
+        padding: 0px;
+        /* border: 1px solid rgb(213, 213, 213); */
+        width: 85%;
+        height: 100%;
+    }
+    .t2tworightstar span{
+        font-size: 8px;
+        color: rgb(240, 176, 81);
+    }
+    .t2tworight p{
+        margin-top: 1px;
+        font-size: 8px;
+        font-weight: 500;
+        color: rgb(103, 104, 105);
+    }
+    .t2twoleft img{
+        height: 55%;
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+    .t2twoleft p{
+        margin-top: 4px;
+        font-size: 6px;
+        font-weight: 550;
+        color: rgb(103, 104, 105);
+    }
+    
+    
+    .addReview{
+        margin-top: 20px;
+        font-size:13px;
+        /* border: 2px solid red; */
+        height: 400px;
+        
+    
+    }
+    
+    .addReview p{
+        margin-top: 10px;
+        font-size: 12px;
+        font-weight: 550;
+        color: rgb(54, 53, 53);
+    }
+    
+    .addReview textarea{
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        padding: 2px;
+        font-size:7px;
+    }
+    
+
+}

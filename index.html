@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+   
+    <link rel="stylesheet" href="shop.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+    <title>Ecommerce Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div>(+01)-2345-6789</div>
+            <div>Our Location</div>
+            <div>Super Value Deals-Save more with coupons</div>
+            <div>Log in/Sign Up</div>
+
+        </nav>
+
+        <div class="nav2">
+
+            <div class="left">
+
+                <img src="img/logo (1).png" alt="">
+
+                <div class="option"><a id="home" href="index.html">Home</a></div>
+                <div class="option"><a href="shop.html">Shop</a></div>
+                <div class="option"><a href="">My Account</a></div>
+                <div class="option"><a href="">Compare</a></div>
+                <div class="option"><a href="">Login</a></div>
+            </div>
+
+            <div class="right"><sub class="likeSub">0</sub>
+                <img src="img/icon-heart.png" alt="">
+                <sub class="cartSub">0</sub>
+                <img class="addCart" src="img/icon-cart.png" alt="">
+                <img class="search" src="img/search.png">
+
+                <div><input type="text" placeholder="Search here..."></div>
+
+            </div>
+
+        </div>
+
+
+    </header>
+
+  
+
+    <div class="mid">
+        <div class="leftmid">
+            <h3 class="h" id="h1">Hot Promotions</h3>
+            <h3 class="h" id="h2">Fashion Trending</h3>
+            <h1 class="h" id="h3">Great Collection</h1>
+            <h5 class="h" id="h4">Save more with coupons & up to 20% off</h5>
+            <button class="btn">Shop Now</button>
+        </div>
+        <div class="rightmid">
+            <img src="img/home-img.png" alt="">
+
+        </div>
+
+    </div>
+
+
+
+    <div class="shoppingCart">
+
+        <div class="smenu">
+            <div>
+                Home > Shop > cart
+            </div>
+            
+        </div>
+    
+        <div class="cartbody">
+            <hr>
+            <div class="cartheading">
+
+                <div class="cHImage"><h4>Image</h4></div>
+                <div class="cHName"><h4>Name</h4></div>
+                <div class="cHPrice"><h4>Price</h4></div>
+                <div class="cHQntty"><h4>Quantity</h4></div>
+                <div class="cHTotal"><h4>Subtotal</h4></div>
+                <div  class="cHRemove"><h4>Remove</h4></div>
+                
+            </div>
+    
+            <div class="cartmidbody">
+                
+            </div>
+    
+            <hr style="margin-top: 0px;margin-bottom: 20px;">
+        </div>
+
+    </div>
+
+    <div class="slider">
+        <div class="sli">
+            <div class="slileft">
+                <h3 class="h" id="h5"><span id="s1">Popular</span> Categories</h3>
+            </div>
+            <div class="sliright">
+                <button class="btn2" id="pre">
+                    <</button>
+                        <button class="btn2" id="post">></button>
+            </div>
+
+        </div>
+        <div class="items">
+            <div class="item">
+                <img src="img/category-1.jpg" alt="">
+                <p>Hats</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-2.jpg" alt="">
+                <p>T-shirt</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-3.jpg" alt="">
+                <p>Bags</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-4.jpg" alt="">
+                <p>Scarf Cap</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-5.jpg" alt="">
+                <p>Sandal</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-6.jpg" alt="">
+                <p>Shoes</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-7.jpg" alt="">
+                <p>Shoes</p>
+
+            </div>
+            <div class="item">
+                <img src="img/category-8.jpg" alt="">
+                <p>Shoes</p>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div class="them" id="themmm">
+        <div class="top">
+
+            <button class="btn3" id="Featured" onclick="change(featuredItems)">Featured</button>
+            <button class="btn3" id="Popular" onclick="change(PopularItems)">Popular</button>
+            <button class="btn3" id="Added" onclick="change(AddedItems)">New Added</button>
+
+
+        </div>
+
+        <div class="themitems">
+            <div class="themitem">
+                <div class="themimg1">
+                    <div id="mark">New</div>
+
+                    <div class="themview" onmouseover="fun1(feHover)" onmouseleave="funl1()">
+                        <button>
+                            <a class="themPageChange1" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a class="#themmm" href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(0))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+
+
+                </div>
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg2">
+                    <div id="mark">Hot</div>
+
+                    <div class="themview" onmouseover="fun2(feHover)" onmouseleave="funl2()">
+                        <button>
+                            <a class="themPageChange2" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(1))">
+                            <a class="themcart1" href="#themmm"><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg3">
+                    <div id="mark">-22%</div>
+
+                    <div class="themview" onmouseover="fun3()" onmouseleave="funl3()">
+                        <button>
+                            <a class="themPageChange3" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(2))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg4">
+                    <div id="mark">New</div>
+
+                    <div class="themview" onmouseover="fun4()" onmouseleave="funl4()">
+                        <button>
+                            <a class="themPageChange4" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(3))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg5">
+                    <div id="mark">Hot</div>
+
+                    <div class="themview" onmouseover="fun5()" onmouseleave="funl5()">
+                        <button>
+                            <a class="themPageChange5" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(4))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg6">
+                    <div id="mark">-40%</div>
+
+                    <div class="themview" onmouseover="fun6()" onmouseleave="funl6()">
+                        <button>
+                            <a class="themPageChange6" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(5))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg7">
+                    <div id="mark">Sale</div>
+
+                    <div class="themview" onmouseover="fun7()" onmouseleave="funl7()">
+                        <button>
+                            <a class="themPageChange7" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(6))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="themitem">
+                <div class="themimg8">
+                    <div id="mark">New</div>
+
+                    <div class="themview" onmouseover="fun8()" onmouseleave="funl8()">
+                        <button>
+                            <a class="themPageChange8" href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                        </button>
+                        <button onclick="newArriveGolike()">
+                            <a href="#themmm"><span class="material-symbols-outlined">favorite</span></a>                            
+                        </button>
+                        <button onclick="(gocart(7))">
+                            <a class="themcart1" href="#themmm" ><span class="material-symbols-outlined">shopping_bag</span></a>
+                        </button>
+                    </div>
+                </div>
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="event">
+        <div class="leftevent">
+            <div class="le">
+                <h3 id="h6">Deal of the Day</h3>
+                <h3 id="h7">Limited Quantities</h3>
+                <h3 id="h8">Summer Collection New <br>Morden Design</h3>
+                <h5 id="h9">$139.00 <span id="s4">160.99</span></h5>
+                <h5 id="h10">Hurry Up!Offer Ends In:</h5>
+                <div class="ebtn">
+                    <div class="ebtn1">
+                        <button>02</button>
+                        <p>Days</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>22</button>
+                        <p>Hours</p>
+
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>57</button>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>24</button>
+                        <p>Secs</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                </div>
+
+
+                <button class="btn" id="ebttn">Shop Now</button>
+            </div>
+
+
+
+
+        </div>
+        <div class="rightevent">
+            <div class="le">
+                <h3 id="h6">Welcome Clothing</h3>
+                <h3 id="h7">Shirt & Bag.</h3>
+                <h3 id="h8">Try Something New On<br>Vacation</h3>
+                <h5 id="h9">$178.00 <span id="s4">256.99</span></h5>
+                <h5 id="h10">Hurry Up!Offer Ends In:</h5>
+                <div class="ebtn">
+                    <div class="ebtn1">
+                        <button>02</button>
+                        <p>Days</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>22</button>
+                        <p>Hours</p>
+
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>57</button>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                    <div class="ebtn1">
+                        <button>24</button>
+                        <p>Secs</p>
+                    </div>
+                    <div class="ep">:</div>
+
+                </div>
+
+
+                <button class="btn" id="ebttn">Shop Now</button>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="slider2">
+        <div class="sli2">
+            <div class="slileft2">
+                <h3 class="h" id="h5"><span id="s1">New</span> Arrivals</h3>
+            </div>
+            <div class="sliright2">
+                <button class="btn2" id="pree" onclick="prevBtnnn()">
+                    <</button>
+                        <button class="btn2" id="postt" onclick="nextBtnnn()">></button>
+            </div>
+
+        </div>
+        <div class="items2">
+            <div class="item2" onmouseover="slider2Hover1()" onmouseleave="slider2Leave1()">
+                <img class="item21" src="img/product-1-1.jpg">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing1.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(1)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover2()" onmouseleave="slider2Leave2()">
+                <img class="item22" src="img/product-2-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing2.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(2)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover3()" onmouseleave="slider2Leave3()">
+                <img class="item23" src="img/product-3-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing3.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(3)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover4()" onmouseleave="slider2Leave4()">
+                <img class="item24" src="img/product-4-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing4.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(4)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+            </div>
+            <div class="item2" onmouseover="slider2Hover5()" onmouseleave="slider2Leave5()">
+                <img class="item25" src="img/product-5-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing5.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(5)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover6()" onmouseleave="slider2Leave6()">
+                <img class="item26" src="img/product-6-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing6.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(6)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover7()" onmouseleave="slider2Leave7()">
+                <img class="item27" src="img/product-7-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing7.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(7)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+            <div class="item2" onmouseover="slider2Hover8()" onmouseleave="slider2Leave8()">
+                <img class="item28" src="img/product-8-1.jpg" alt="">
+
+                <div class="themview" style="margin-top: -200px;margin-left: -10px;">
+                    <button>
+                        <a href="thing8.html"><span class="material-symbols-outlined">visibility</span></a>
+                    </button>
+                    <button onclick="newArriveGolike()">
+                        <a href="#slider2"><span class="material-symbols-outlined">favorite</span></a>                            
+                    </button>
+                    <button onclick="newArriveGocart(8)">
+                        <a href="#slider2"><span class="material-symbols-outlined">shopping_bag</span></a>
+                    </button>
+                </div>
+
+
+                <div class="p">
+                    <h5>Clothing</h5>
+                    <h4>Color Pattern Shirts</h4>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <span class="material-symbols-outlined">
+                        star
+                    </span>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="menuu">
+        <div class="menu1">
+            <div class="menuheading">
+                <h4>Hot Releases</h4>
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft1">
+
+                </div>
+                <div class="mright">
+                    <h4>Floral Print Casual Cotton...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft2">
+
+                </div>
+                <div class="mright">
+                    <h4>Ruffiled Solid Long Sleev...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft3">
+
+                </div>
+                <div class="mright">
+                    <h4>Multi-color Print V-neck...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="menu2">
+            <div class="menuheading">
+                <h4>Deals & Outlet</h4>
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft4">
+
+                </div>
+                <div class="mright">
+                    <h4>Fish Print Patched T-shirt</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft5">
+
+                </div>
+                <div class="mright">
+                    <h4>Vintage Floral Print Dress</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft6">
+
+                </div>
+                <div class="mright">
+                    <h4>Multi-color Stripe Circle...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="menu3">
+            <div class="menuheading">
+                <h4>Top Selling</h4>
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft7">
+
+                </div>
+                <div class="mright">
+                    <h4>Geometric Printed Long...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft8">
+
+                </div>
+                <div class="mright">
+                    <h4>Print Patchwork Maxi Dr...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft9">
+
+                </div>
+                <div class="mright">
+                    <h4>Daisy Floral Print Straps</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="menu4">
+            <div class="menuheading">
+                <h4>Trendy</h4>
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft10">
+
+                </div>
+                <div class="mright">
+                    <h4>Multi Color Print V-neck</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft11">
+
+                </div>
+                <div class="mright">
+                    <h4>Floral Print Casual Cotton...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+            <div class="menuitem1">
+                <div class="mleft" id="mleft12">
+
+                </div>
+                <div class="mright">
+                    <h4>Ruffiled Solid Long Sleev...</h4>
+                    <h3>$238.85 <span id="s3">245.8</span></h3>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="footermenu">
+        <div class="subfmenu">
+
+            <div class="mail">
+                <span class="material-symbols-outlined">
+                    forward_to_inbox
+                </span>
+                <p>Sign Up to NewsLetter</p>
+            </div>
+
+            <div class="menumid">
+                <p>...and receive $25 coupon fro first shopping</p>
+            </div>
+
+            <div class="inputMail">
+                <input type="text" placeholder="Enter your mail">
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer1">
+            <img class="imggg" src="img/logo (1).png" alt="">
+            <p class="footerp1">contact</p>
+            <p class="footerp2"><span>Address : </span>562 Wellington Road,Street 32,Sab Francisco</p>
+            <p class="footerp2"><span>Phone : </span>+01 2222 365/(+91)01 2345 6789</p>
+            <p class="footerp2"><span>Hours : </span>10:00 - 18:00,Mon - Sat</p>
+            <p class="footerp1">Follow Me</p>
+            <div class="ficon">
+                <img src="img/icon-facebook.png" alt="">
+                <img src="img/icon-pinterest.png" alt="">
+                <img src="img/icon-twitter.png" alt="">
+                <img src="img/icon-instagram.png" alt="">
+                <img src="img/icon-youtube.png" alt="">
+            </div>
+        </div>
+        <div class="footer2">
+            <div class="fheading">
+                <h4>Address</h4>
+                <div class="fa">
+                    <div id="a">
+                        <a href="">About Us</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Delivery Information</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Privacy Policy</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Terms & Conditions</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Contact Us</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Support Center</a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="footer3">
+            <div class="fheading">
+                <h4>My Account</h4>
+
+                <div class="fa">
+
+
+
+                    <div id="a">
+                        <a href="">Sign In</a>
+                    </div>
+                    <div id="a">
+                        <a href="">View Cart</a>
+                    </div>
+                    <div id="a">
+                        <a href="">My Wishlist</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Track My Order</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Help</a>
+                    </div>
+                    <div id="a">
+                        <a href="">Order</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="footer4">
+            <div class="fheading">
+                <h4>Secured Payment Gateways</h4>
+                <img src="img/payment-method.png" alt="">
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="index.js"></script>
+    
+
+</body>
+
+</html>
